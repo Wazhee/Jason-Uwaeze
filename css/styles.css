@@ -3721,7 +3721,18 @@ textarea.form-control-lg {
 .dropend .dropdown-toggle::after {
   vertical-align: 0;
 }
-
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .dropstart .dropdown-menu[data-bs-popper] {
   top: 0;
   right: 100%;
