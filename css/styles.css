@@ -604,7 +604,11 @@ progress {
   max-width: 50%;
   height: auto;
 }
-
+.interests-images{
+    display: flex;
+    width: 300px;
+    margin-right: 20px; 
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
