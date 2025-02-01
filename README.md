@@ -15,7 +15,7 @@ Use link to visit webpage :- [Link](https://wazhee.github.io/Jason-Uwaeze/)
 <br>
 ![stylegan](https://github.com/user-attachments/assets/a357bff0-3f4d-4742-a3fc-b70837278549)
 
-## Cite this work
+## Cite my papers
 Uwaeze et al, [*Automatic Active Lesion Trackingt*]([https://arxiv.org/abs/2402.05713](https://www.mdpi.com/2075-4418/14/6/632)), MDPI 2024.
 ```
 @article{uwaeze2024automatic,
