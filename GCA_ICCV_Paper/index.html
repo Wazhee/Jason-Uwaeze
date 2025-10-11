@@ -157,30 +157,19 @@
     Remove this step if not applicable
     -->
 
-    <!-- Single YouTube Video -->
-    <div class="video-section">
-      <h3>Demo Video</h3>
-      <div class="video-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ysFav0b472w?si=Rxxp3R6_tkBXAEmP"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <p>
-        TODO: This is the short explanation paragraph of the video. Add your
-        paragraph here if required
-      </p>
-    </div>
-
+    <!-- Paper Abstract -->
     <div class="abstract" id="abstract">
       <h2>Abstract</h2>
-      <p>TODO: Add Abstract</p>
+      <p>Deep learning (DL) models trained for chest x-ray (CXR) classification can encode protected demographic attributes and 
+        exhibit bias towards underrepresented patient populations. In this work, we propose Generative Counterfactual Augmentation (GCA), 
+        a framework for mitigating algorithmic bias through demographic-complete augmentation of training data. We use a StyleGAN3-based 
+        synthesis network and SVM-guided latent space traversal to generate structured age and sex counterfactuals for each CXR 
+        while preserving disease features. We extensively evaluate GCA for training DL models with the RSNA Pneumonia dataset 
+        using controlled underdiagnosis bias injection across age- and sex-groups at varying rates. Our results 
+        show up to 23% reduction in FNR disparity, with a mean reduction of 9%, across varying rates of underdiagnosis bias. 
+        When evaluated with the external CheXpert and MIMIC-CXR datasets, we observe a consistent FNR reduction and improved 
+        model generalizability. We demonstrate that GCA is an effective strategy for mitigating algorithmic bias in DL models 
+        for medical imaging, ensuring trustworthiness in clinical settings.</p>
     </div>
 
     <!-- Step 3 End: Add your paper abstract -->
