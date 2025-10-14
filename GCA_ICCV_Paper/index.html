@@ -212,7 +212,7 @@
     Remove this step if not applicable
     -->
 
-    <div class="content-section" id="Results">
+    <div class="content-section" class="bias" id="bias">
       <h2>Impact of GCA on Model Performance</h2>
       <p>We evaluated the impact of controlled bias injection on DenseNet121 FNR and AUROC performance. Models trained on the original (RNSA) and demographically 
         targeted synthetic (Synth-RSNA) and demographic-complete synthetic (Full-Synth-RSNA) RSNA datasets were tested on the RSNA, CheXpert, and MIMIC-CXR test sets.</p>
@@ -241,7 +241,7 @@
     <!-- Step 5 End: Add your paper methodology -->
 
     <!-- Step 6 Start: Add your paper results -->
-    <div class="content-section" id="Vulnerability">
+    <div class="Vulnerability" id="Vulnerability">
       <h2>Impact of GCA on non-targeted subgroups</h2>
       <p>GCA improves robustness on targeted groups without adversely affecting accuracy on non-targeted groups.
         When GCA is applied, Vulnerability (ν), for 0-20Y decreases considerably, from ν = 2.96 to ν = 0.68 (∆ = −2.28) 
@@ -320,7 +320,7 @@
     Remove this step if not applicable
     -->
 
-    <div class="content-section" id="conclusion">
+    <div class="conclusion" id="conclusion">
       <h2>Conclusion</h2>
       <p>GCA offers a scalable and effective framework for mitigating algorithmic bias in DL models
         through structured counterfactual generation. Our findings suggest that GCA not only 
