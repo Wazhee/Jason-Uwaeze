@@ -252,6 +252,26 @@ h2 {
   margin-top: 20px;
 }
 
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.image-gallery img {
+  width: 250px;        /* adjust image size */
+  height: auto;
+  border-radius: 10px; /* optional rounded corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
 .indicator {
   width: 12px;
   height: 12px;
