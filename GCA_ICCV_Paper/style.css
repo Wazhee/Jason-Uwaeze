@@ -261,7 +261,7 @@ h2 {
 }
 
 .image-gallery img {
-  width: 250px;        /* adjust image size */
+  width: 100px;        /* adjust image size */
   height: auto;
   border-radius: 10px; /* optional rounded corners */
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
