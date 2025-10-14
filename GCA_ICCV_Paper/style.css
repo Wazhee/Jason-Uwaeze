@@ -256,21 +256,25 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  align-items: center;
+  gap: 12px;
   margin-top: 10px;
 }
 
 .image-gallery img {
-  width: 100px;        /* adjust image size */
-  height: auto;
-  border-radius: 10px; /* optional rounded corners */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
+  height: 100px;       /* uniform small figure size */
+  width: auto;
+  object-fit: contain; /* keeps aspect ratio intact */
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .image-gallery img:hover {
   transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
 
 .indicator {
   width: 12px;
